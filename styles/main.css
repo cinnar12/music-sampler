@@ -1,0 +1,90 @@
+body {
+  background: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  color: #e4e4e4;
+  font-family: "Roboto", Calibri, sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", Arial , sans-serif;
+  text-align: center;
+  margin: .5em auto 0 auto;
+  letter-spacing: 5px;
+}
+
+#subheading {
+  text-align: center;
+  width: 60%;
+  margin: .5em auto 1.5em auto;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family:  "Montserrat", Arial , sans-serif;
+}
+
+#attribution {
+  width: 60%;
+  margin: auto;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+}
+
+#about {
+  width: 60%;
+  margin: auto;
+}
+
+#mcontainer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+button {
+  width: 100%;
+  background: #1c1c1c;
+  border: none;
+  outline: 1px solid grey;
+  color: grey;
+  margin: 1em auto;
+  padding: .5em;
+  -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: #2c2c2c;
+    color: white;
+    outline: 1px solid white;
+}
+
+footer {
+  width: 60%;
+  font-size: 12px;
+  color: #999;
+  margin: 1em auto;
+  text-align: center;
+}
+
+
+
+@media (max-width: 400px) {
+  h2{
+    width: 80%;
+  }
+  #about{
+    width: 80%;
+  }
+  #attribution {
+    width: 80%;
+  }
+  footer{
+    width: 80%;
+  }
+}
